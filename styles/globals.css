@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.words{
+  height: 40px;
+  overflow: hidden;
+}
+
+.boxShadow1{
+  transition:all 0.2s;
+}
+.boxShadow1:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform:scale(102%);
+}
+
+.words span{
+  animation: rotateText 12s infinite;
+font-weight: bold;
+}
+.skillCard{
+  transition: all 0.4s;
+
+}
+.icons {
+  transition: all 0.3s;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 60px;
+
+}
+.icons:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.skillCard:hover{
+  top: -5px;
+  /* transform: rotate3d(4,2,-1,15deg); */
+
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+@keyframes rotateText{
+  8%{
+    transform:  translateY(-112%);
+  }
+  10%{
+    transform:  translateY(-100%);
+  }
+  18%{
+    transform:  translateY(-212%);
+  }
+  20%{
+    transform:  translateY(-200%);
+  }
+  28%{
+    transform:  translateY(-312%);
+  }
+  30%{
+    transform:  translateY(-300%);
+  }
+  38%{
+    transform:  translateY(-412%);
+  }
+  40%{
+    transform:  translateY(-400%);
+  }
+  48%{
+    transform:  translateY(-512%);
+  }
+  50%{
+    transform:  translateY(-500%);
+  }
+  58%{
+    transform:  translateY(-612%);
+  }
+  60%{
+    transform:  translateY(-600%);
+  }
+  68%{
+    transform:  translateY(-712%);
+  }
+  70%{
+    transform:  translateY(-700%);
+  }
+  78%{
+    transform:  translateY(-812%);
+  }
+  80%{
+    transform:  translateY(-800%);
+  }
+  88%{
+    transform:  translateY(-912%);
+  }
+  90%{
+    transform:  translateY(-900%);
+  }
+  980%{
+    transform:  translateY(-1012%);
+  }
+  100%{
+    transform:  translateY(-1000%);
+  }
+}
