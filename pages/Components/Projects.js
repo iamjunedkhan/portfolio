@@ -8,7 +8,7 @@ import ProjectTile from './ProjectTile'
 const Projects = () => {
   return (
     <div>
-        <h1 className='text-center text-4xl my-12 '>Projects</h1>
+        <h1 className='text-center text-4xl my-12 ' id='Projects' style={{paddingTop:'100px'}}>Projects</h1>
         <div className='flex justify-center flex-wrap'>
                 <ProjectTile img={il1} subject={'Resume Builder'} techs ={['react','html','css','next','javascript','tailwind']} />
                 <ProjectTile img={il2} subject={'Resume Builder'} techs ={['react','html','css','next','javascript']} />

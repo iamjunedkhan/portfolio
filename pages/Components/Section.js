@@ -2,7 +2,8 @@ import React from 'react'
 import il5 from './images/il5.png'
 const Section = () => {
     return (
-        <div className='flex items-center justify-between px-28 '>
+        <div className='flex items-center justify-between px-28 relative' >
+            <div id='Home' className='absolute -top-32' ></div>
             <div className="left  flex-1  ">
                 <h1 className='text-5xl font-bold'>Hello, I am Juned</h1>
                 <div className='flex '>

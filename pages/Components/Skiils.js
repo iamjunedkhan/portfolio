@@ -22,7 +22,7 @@ const Skiils = () => {
     // console.log('inside skills :',bg)
     return (
         <div className='my-24'>
-            <h1 className='text-center text-4xl my-12 '>Skills</h1>
+            <h1 className='text-center text-4xl my-12 ' id='Skills' style={{paddingTop:'100px'}} >Skills</h1>
             <div className='flex justify-center px-28 flex-wrap'>
                 <Tilt
                     tiltMaxAngleX={30}
