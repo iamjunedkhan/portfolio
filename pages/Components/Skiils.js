@@ -23,17 +23,17 @@ const Skiils = () => {
     return (
         <div className='my-24'>
             <h1 className='text-center text-4xl my-12 ' id='Skills' style={{paddingTop:'100px'}} >Skills</h1>
-            <div className='flex justify-center px-28 flex-wrap'>
+            <div className='flex justify-center sm:px-28 px-12 flex-wrap'>
                 <Tilt
                     tiltMaxAngleX={30}
                     tiltMaxAngleY={30}
                     glareEnable={true}
                     // perspective={500}
                 >
-                    <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
 
-                        <IoLogoHtml5 className='w-24 h-24 text-orange-600' />
-                        <h1 className='font-bold text-2xl text-center'>HTML5</h1>
+                        <IoLogoHtml5 className='w-16 h-16 sm:w-24 sm:h-24 text-orange-600' />
+                        <h1 className='font-bold text-xl text-center'>HTML5</h1>
                     </div>
                 </Tilt>
                 <Tilt
@@ -42,9 +42,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <SiCsswizardry className='w-24 h-24 text-blue-600' />
-                    <h1 className='font-bold text-2xl text-center'>CSS3</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <SiCsswizardry className='w-16 h-16 sm:w-24 sm:h-24 text-blue-600' />
+                    <h1 className='font-bold text-2x text-center'>CSS3</h1>
                 </div>
                 </Tilt>
                 <Tilt
@@ -53,9 +53,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <SiJavascript className='w-24 h-24 text-yellow-600' />
-                    <h1 className='font-bold text-2xl text-center'>JavaScript</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <SiJavascript className='w-16 h-16 sm:w-24 sm:h-24 text-yellow-600' />
+                    <h1 className='font-bold text-2l text-center'>JavaScript</h1>
                 </div>
                 </Tilt>
                 <Tilt
@@ -64,9 +64,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <FaReact className='w-24 h-24 text-indigo-600' />
-                    <h1 className='font-bold text-2xl text-center'>React</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <FaReact className='w-16 h-16 sm:w-24 sm:h-24 text-indigo-600' />
+                    <h1 className='font-bold txt-2xl text-center'>React</h1>
                 </div>
                 </Tilt>
                 <Tilt
@@ -75,9 +75,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <SiNextdotjs className='w-24 h-24 ' />
-                    <h1 className='font-bold text-2xl text-center'>Next</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <SiNextdotjs className='w-16 h-16 sm:w-24 sm:h-24 ' />
+                    <h1 className='font-bold text-xl text-center'>Next</h1>
                 </div>
                 </Tilt>
                 <Tilt
@@ -86,9 +86,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <DiJava className='w-24 h-24 text-red-600' />
-                    <h1 className='font-bold text-2xl text-center'>Java</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <DiJava className='w-16 h-16 sm:w-24 sm:h-24 text-red-600' />
+                    <h1 className='font-bold ext-2xl text-center'>Java</h1>
                 </div>
                 </Tilt>
                 <Tilt
@@ -97,9 +97,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <TbSql className='w-24 h-24 text-orange-600' />
-                    <h1 className='font-bold text-2xl text-center'>SQL</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <TbSql className='w-16 h-16 sm:w-24 sm:h-24 text-orange-600' />
+                    <h1 className='font-boldtext-2xl text-center'>SQL</h1>
                 </div>
                 </Tilt>
                 <Tilt
@@ -108,9 +108,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <SiTailwindcss className='w-24 h-24 text-cyan-300' />
-                    <h1 className='font-bold text-2xl text-center'>TailwindCSS</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <SiTailwindcss className='w-16 h-16 sm:w-24 sm:h-24 text-cyan-300' />
+                    <h1 className='font-bold text-2x text-center'>TailwindCSS</h1>
                 </div>
                 </Tilt>
                 <Tilt
@@ -119,9 +119,9 @@ const Skiils = () => {
                     glareEnable={true}
                     // perspective={500}
                 >
-                <div className='m-10 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
-                    <FaBootstrap className='w-24 h-24 text-cyan-950' />
-                    <h1 className='font-bold text-2xl text-center'>BootStrap</h1>
+                <div className='sm:m-10 m-5 flex justify-center flex-col items-center relative skillCard rounded-lg p-3 '>
+                    <FaBootstrap className='w-16 h-16 sm:w-24 sm:h-24 text-cyan-950' />
+                    <h1 className='font-bold text-xl text-center'>BootStrap</h1>
                 </div>
                 </Tilt>
 
